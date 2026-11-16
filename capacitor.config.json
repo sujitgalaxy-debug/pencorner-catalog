@@ -1,0 +1,8 @@
+{
+  "appId": "in.pencorner.catalog",
+  "appName": "Pen Corner Catalog",
+  "webDir": "public",
+  "server": {
+    "androidScheme": "https"
+  }
+}

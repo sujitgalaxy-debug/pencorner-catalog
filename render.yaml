@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: pen-corner-catalog
+    runtime: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: ADMIN_USER
+        value: admin
+      - key: ADMIN_PIN
+        sync: false
